@@ -1,0 +1,50 @@
+
+:root {
+  color-scheme: dark;
+  font-family: 'DM Sans', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid #55d9c7;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #07110f;
+  background: #55d9c7;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1015;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #34434b;
+  border-radius: 8px;
+}
